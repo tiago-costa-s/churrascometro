@@ -14,7 +14,7 @@
     width: 100%;
     height: 100%;
     height: 100vh;
-    background-image: url("/pexels-mali-maeder-65175.jpg");
+    background-image: url("https://i.postimg.cc/L6ybSZ9C/pexels-mali-maeder-65175.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,8 +110,7 @@ input [type="button"] {
 
 #calc-result {
     display: none;
-    width: 40%;
+    width: 50%;
     padding: 1rem;
-    text-align: center;
-    text-decoration: underline;
+    text-align: center;     
 }
