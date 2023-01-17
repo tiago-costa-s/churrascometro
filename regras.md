@@ -1,0 +1,1 @@
+“O tempo médio de um churrasco costuma variar entre 2 ou 3 horas, o que apresenta um consumo parecido entre as pessoas. Neste período, o ideal são 250 gramas por pessoa. Já para um churrasco de 5 a 6 horas, o ideal são 500 gramas por pessoa, já que os convidados tendem a consumir mais de uma vez”, conta o chef.

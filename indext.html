@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    </header>
+    <main id="main">
+        <div id="shadow">
+            <section id="calc-body">
+                <article id="calc-board">
+                    <div id="calc-cards">
+                        <img src="https://i.postimg.cc/YC9TLzDB/men.png" alt="">
+                        <div id="calc-box-buttons">
+                            <label for="">Homens</label>
+                            <input type="text" placeholder="" id="men">                            
+                        </div>
+                    </div>
+
+                    <div id="calc-cards">
+                        <img src="https://i.postimg.cc/Wz8fhdM4/woman.png" alt="">
+                        <div id="calc-box-buttons">
+                            <label for="">Mulheres</label>
+                            <input type="text" placeholder="" id="woman">
+                        </div>
+                    </div>
+
+                    <div id="calc-cards">
+                        <img src="https://i.postimg.cc/BvPyMQGh/Child.png" alt="">
+                        <div id="calc-box-buttons">
+                            <label for="">Crianças</label>
+                            <input type="" placeholder="" id="child">
+                        </div>
+                    </div>
+
+                    <div id="calc-cards">
+                        <img src="https://i.postimg.cc/ydFGCQxc/time.png" alt="">
+                        <div id="calc-box-buttons">
+                            <label for="">Duração</label>
+                            <select name="" id="time">
+                                <option value="0"></option>
+                                <option value="3">Menos de 3h</option>
+                                <option value="5">Entre 3h e 5h</option>
+                                <option value="6">Acima de 5h</option>
+                            </select>
+                        </div>
+                    </div>
+                </article>
+
+                <div id="buttons-box">
+                    <input type="button" value="Calcular" class="btn" id="btn-calcular">
+                    <input type="button" value="Voltar" class="btn" id="btn-voltar">
+                </div>
+
+                <article id="calc-result">
+                    <p></p>
+                    <p></p>
+                </article>
+            </section>
+        </div>
+
+    </main>  
+</body>
+
+</html>
