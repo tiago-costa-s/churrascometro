@@ -69,8 +69,8 @@ calcularBTN.addEventListener("click", () => {
         return totalDrink;
     }
 
-    console.log("Home - Carne: " + mensMeatConsumption() + " Bebida: " + mensDrinkConsumption());
-    console.log("Mulher - Carne: " + womansMeatConsumption() + " Bebida: " + womansDrinkConsumption());
+    console.log("Mens - Carne: " + mensMeatConsumption() + " Bebida: " + mensDrinkConsumption());
+    console.log("Womans - Carne: " + womansMeatConsumption() + " Bebida: " + womansDrinkConsumption());
     console.log("Childs - Carne: " + childsMeatConsumption() + " Bebida: " + childsDrinkConsumption());
 
     console.log("Total Meat: " + totalMeat());
@@ -89,8 +89,6 @@ voltarBTN.addEventListener("click", () => {
     childInput.value = "";
     timeInput.value = "";
     calcResult.style.display = "none";
-
-
 
     // calcularBTN.style.display = "flex";
     // voltarBTN.style.display = "none";
