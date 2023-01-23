@@ -1,6 +1,6 @@
 # churrascometro
 
-link: 
+link: https://churrascometro-simple-c56ac4.netlify.app/
 
 ## Tecnologias
 - HTML 5
