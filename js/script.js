@@ -68,16 +68,6 @@ calcularBTN.addEventListener("click", () => {
         const totalDrink = mensDrinkConsumption() + womansDrinkConsumption() + childsDrinkConsumption();
         return totalDrink;
     }
-
-    console.log("Mens - Carne: " + mensMeatConsumption() + " Bebida: " + mensDrinkConsumption());
-    console.log("Womans - Carne: " + womansMeatConsumption() + " Bebida: " + womansDrinkConsumption());
-    console.log("Childs - Carne: " + childsMeatConsumption() + " Bebida: " + childsDrinkConsumption());
-
-    console.log("Total Meat: " + totalMeat());
-    console.log("Total Drink: " + totalDrink());
-
-    // calcularBTN.style.display = "none";
-    // voltarBTN.style.display = "flex";
     calcResult.style.display = "block";
     calcResult.innerHTML = `<p>Carne: ${totalMeat().toFixed(3)} Quilos.</p> <p>Bebidas: ${totalDrink().toFixed(3)} Litros.</p>`;
 });
@@ -89,9 +79,6 @@ voltarBTN.addEventListener("click", () => {
     childInput.value = "";
     timeInput.value = "";
     calcResult.style.display = "none";
-
-    // calcularBTN.style.display = "flex";
-    // voltarBTN.style.display = "none";
 });
 
 
