@@ -79,7 +79,7 @@ calcularBTN.addEventListener("click", () => {
     // calcularBTN.style.display = "none";
     // voltarBTN.style.display = "flex";
     calcResult.style.display = "block";
-    calcResult.innerHTML = `<p>Carne: ${totalMeat()} Quilos.</p> <p>Bebidas: ${totalDrink()} Litros.</p>`;
+    calcResult.innerHTML = `<p>Carne: ${totalMeat().toFixed(3)} Quilos.</p> <p>Bebidas: ${totalDrink().toFixed(3)} Litros.</p>`;
 });
 
 voltarBTN.addEventListener("click", () => {
